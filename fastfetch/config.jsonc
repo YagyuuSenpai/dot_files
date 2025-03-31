@@ -1,0 +1,87 @@
+{
+	"logo": {
+		"type": "small",
+//kitty
+//chafa
+		"position": "top",
+		"padding": {
+			"top": 1
+		}
+	},
+	"display": {
+		"key": {
+			"type": "both"
+		},
+		"separator": " "
+	},
+	"modules": [
+		{
+			"type": "title",
+			"color": {
+//				"user": "black"
+				"at": "black"
+			}
+		},
+		"break",
+		{
+			"type": "kernel",
+			"key": "kernel\t\t",
+			"keyIcon": ""
+		},
+		"break",
+		{
+			"type": "os",
+			"keyIcon": "",
+			"key": "/\\\t\t",
+			"format": "{2}"
+		},
+		"break",
+		{
+			"type": "uptime",
+			"key": "up\t\t"
+		},
+		"break",
+		{
+			"type": "packages",
+			"key": "pkgs\t\t"
+		},
+/*		"break",
+		{
+			"type": "cpu",
+			"key": "cpu"
+		},
+		"break",
+		{
+			"type": "gpu",
+			"key": "gpu",
+			"driverSpecific": true,
+			"temp": true
+		},
+//		"break",
+		{
+			"type": "title",
+			"format": "{user-name}",
+		},
+		{
+			"type": "terminal"
+		},
+		"break",
+		{
+			"type": "shell"
+		},*/
+		"break",
+		{
+			"type": "wm",
+			"key": "wm\t\t",
+			"format": "{2}"
+		},
+		"break",
+		{
+			"type": "colors",
+			"symbol": "circle"
+/*			"block": {
+				"range": [1, 6]
+			}*/
+		}
+	]
+}
